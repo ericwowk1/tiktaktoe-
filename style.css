@@ -1,0 +1,44 @@
+/* General styling for body */
+
+ .container {
+   text-align: center;
+ }
+ 
+ h1 {
+   color: #333;
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+ }
+ 
+ /* Styling for the Start button */
+ .start-button {
+   background-color: #28a745;
+   color: white;
+   padding: 10px 20px;
+   font-size: 1rem;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 20px;
+ }
+ 
+ .start-button:hover {
+   background-color: #218838;
+ }
+ 
+ /* Styling for the Tic Tac Toe board */
+
+ .board div {
+
+   background-color: #fff;
+   font-size: 2rem;
+   font-weight: 900; /* Increased the boldness */
+   color: #333;
+   cursor: pointer;
+   user-select: none;
+ }
+ 
+ .board div:active {
+   background-color: #ccc;
+ }
+ 
